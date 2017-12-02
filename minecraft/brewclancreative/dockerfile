@@ -1,0 +1,16 @@
+FROM itzg/minecraft-server
+
+MAINTAINER Chris Brewer "ckbrewer33@gmail.com"
+
+# Environment variables
+
+ENV EULA=TRUE
+ENV VERSION=LATEST
+ENV MODE=creative
+ENV MOTD="Brewerclan Creative"
+ENV PVP=false
+ENV DIFFICULTY=normal
+ENV OPS=thor_33
+ENV "JVM_OPTS=-Xmx3072M -Xms1024M"
+
+EXPOSE 25568

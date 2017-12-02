@@ -1,0 +1,17 @@
+FROM itzg/minecraft-server
+
+MAINTAINER Chris Brewer "ckbrewer33@gmail.com"
+
+# Environment variables
+
+ENV EULA=TRUE
+ENV VERSION=LATEST
+ENV MODE=survival
+ENV MOTD="Brewerclan Survival"
+ENV PVP=true
+ENV DIFFICULTY=normal
+ENV OPS=thor_33
+ENV "JVM_OPTS=-Xmx3072M -Xms1024M"
+ENV SEED=BOOK
+
+EXPOSE 25565
